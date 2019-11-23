@@ -1,0 +1,23 @@
+﻿Build started 3/28/2017 6:09:37 PM.
+     1>Project "c:\Users\hafizhamza\documents\visual studio 2010\Projects\Prime Numbers\Prime Numbers\Prime Numbers.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\Prime Numbers.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt "Prime numbers.cpp"
+         Prime numbers.cpp
+     1>c:\users\hafizhamza\documents\visual studio 2010\projects\prime numbers\prime numbers\prime numbers.cpp(32): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\conio.h(128) : see declaration of 'getch'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\hafizhamza\documents\visual studio 2010\Projects\Prime Numbers\Debug\Prime Numbers.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Prime Numbers.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"c:\users\hafizhamza\documents\visual studio 2010\Projects\Prime Numbers\Debug\Prime Numbers.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\users\hafizhamza\documents\visual studio 2010\Projects\Prime Numbers\Debug\Prime Numbers.lib" /MACHINE:X86 "Debug\Prime numbers.obj"
+         LINK : c:\users\hafizhamza\documents\visual studio 2010\Projects\Prime Numbers\Debug\Prime Numbers.exe not found or not built by the last incremental link; performing full link
+         Prime Numbers.vcxproj -> c:\users\hafizhamza\documents\visual studio 2010\Projects\Prime Numbers\Debug\Prime Numbers.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"c:\users\hafizhamza\documents\visual studio 2010\Projects\Prime Numbers\Debug\Prime Numbers.exe;#1" /manifest "Debug\Prime Numbers.exe.intermediate.manifest"
+       FinalizeBuildStatus:
+         Deleting file "Debug\Prime Numbers.unsuccessfulbuild".
+         Touching "Debug\Prime Numbers.lastbuildstate".
+     1>Done Building Project "c:\Users\hafizhamza\documents\visual studio 2010\Projects\Prime Numbers\Prime Numbers\Prime Numbers.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.65
